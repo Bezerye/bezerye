@@ -1,0 +1,34 @@
+name: Update Server Uptime and Career Time
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *' # Runs every January 1st
+  workflow_dispatch: # Allow manual trigger too
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update uptime and career years
+        run: |
+          CAREER_START_YEAR=2018
+          CURRENT_YEAR=$(date +"%Y")
+          CAREER_YEARS=$((CURRENT_YEAR - CAREER_START_YEAR))
+
+          # Update server uptime
+          sed -i "s/> Server uptime: .* years /> Server uptime: ${CAREER_YEARS} years/" README.md
+
+          # Update 7+ years career mention
+          sed -i "s/Full Stack Developer with [0-9]\+.\+ years/Full Stack Developer with ${CAREER_YEARS}+ years/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update server uptime and career years [auto]"
+          git push
