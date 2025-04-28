@@ -3,10 +3,10 @@
 > node erkan-dev.js
 
 [1/5] Loading About Me... 0.354s
-    - 💻 Full Stack Developer with 7+ years of experience building scalable, elegant, and high-performance web applications.
+    - 💻 Full Stack Developer with 7+ years of experience building fast, scalable, and elegant applications.
     - 🚀 Transitioned from a career in Law to Computer Science to pursue a childhood dream.
     - 🌎 Based in Turkey, aiming for professional opportunities across Europe.
-    - 🎯 Passionate about merging technology with creativity: AI, real-time collaboration tools, and interactive web apps.
+    - 🎯 Fusing technology and creativity: AI, responsive design, and interactive web apps.
 
 [2/5] Installing Skills... 0.682s
     - Languages: JavaScript, TypeScript, HTML, CSS, SQL
@@ -18,7 +18,7 @@
     - Tools: Git, Webpack, Vite, Figma, Postman
 
 [3/5] Compiling Current Focus... 0.421s
-    - Strengthening expertise in advanced JavaScript, full-stack architectures, testing methodologies, and cloud deployments.
+    - Strengthening expertise in advanced JavaScript, full-stack systems, testing, and cloud deployment.
     - Developing creative, engaging pet projects like AI-powered apps and smart web apps.
 
 [4/5] Connecting Services... 0.294s
