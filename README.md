@@ -42,5 +42,5 @@
 # |  _  |  __/ | | (_) |     \ V  V / (_) | |  | | (_| |
 # |_| |_|\___|_|_|\___/       \_/\_/ \___/|_|  |_|\__,_|
 
-> Server uptime: 7 years | Status: ONLINE | Environment: DEVELOPMENT
+> Server uptime: 7 years| Status: ONLINE | Environment: DEVELOPMENT
 ```
