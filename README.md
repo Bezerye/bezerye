@@ -3,7 +3,7 @@
 > node erkan-dev.js
 
 [1/5] Loading About Me... 0.354s
-    - 💻 Full Stack Developer with 7+ years of experience building fast, scalable, and elegant applications.
+    - 💻 Full Stack Developer with 8+ years of experience building fast, scalable, and elegant applications.
     - 🚀 Transitioned from a career in Law to Computer Science to pursue a childhood dream.
     - 🌎 Based in Turkey, aiming for professional opportunities across Europe.
     - 🎯 Fusing technology and creativity: AI, responsive design, and interactive web apps.
@@ -42,5 +42,5 @@
 # |  _  |  __/ | | (_) |     \ V  V / (_) | |  | | (_| |
 # |_| |_|\___|_|_|\___/       \_/\_/ \___/|_|  |_|\__,_|
 
-> Server uptime: 7 years | Status: ONLINE | Environment: DEVELOPMENT
+> Server uptime: 8 years| Status: ONLINE | Environment: DEVELOPMENT
 ```
